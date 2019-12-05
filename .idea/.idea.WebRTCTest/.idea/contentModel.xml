@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ContentModelStore">
+    <e p="C:\UnityProjects\WebRTCTest" t="IncludeRecursive">
+      <e p="Assembly-CSharp-Editor.csproj" t="IncludeRecursive" />
+      <e p="Assembly-CSharp.csproj" t="IncludeRecursive" />
+      <e p="Assets" t="Include">
+        <e p="CustomWebRtcSenderReciever" t="Include">
+          <e p="Editor" t="Include">
+            <e p="CallAppUiDeviceCustomManagerEditor.cs" t="Include" />
+            <e p="CallAppUiWebRecieverEditor.cs" t="Include" />
+          </e>
+          <e p="scripts" t="Include">
+            <e p="CallAppUiDeviceCustomManager.cs" t="Include" />
+            <e p="CallAppUiWebReciever.cs" t="Include" />
+          </e>
+        </e>
+        <e p="WebRtcVideoChat" t="Include">
+          <e p="awrtc.asmdef" t="Include" />
+          <e p="callapp" t="Include">
+            <e p="CallApp.cs" t="Include" />
+            <e p="CallAppUi.cs" t="Include" />
+            <e p="ImgFitter.cs" t="Include" />
+            <e p="VideoPanelEventHandler.cs" t="Include" />
+          </e>
+          <e p="changelog.txt" t="Include" />
+          <e p="chatapp" t="Include">
+            <e p="ChatApp.cs" t="Include" />
+            <e p="MessageList.cs" t="Include" />
+          </e>
+          <e p="Editor" t="Include">
+            <e p="awrtc_editor.asmdef" t="Include" />
+            <e p="IosPostBuild.cs" t="Include" />
+          </e>
+          <e p="examples" t="Include">
+            <e p="ExampleGlobals.cs" t="Include" />
+            <e p="MinimalCall.cs" t="Include" />
+            <e p="MinimalConference.cs" t="Include" />
+            <e p="MinimalMediaNetwork.cs" t="Include" />
+            <e p="SimpleCall.cs" t="Include" />
+          </e>
+          <e p="extra" t="Include">
+            <e p="OneToMany" t="Include">
+              <e p="OneToMany.cs" t="Include" />
+            </e>
+            <e p="readme.txt" t="Include" />
+            <e p="VideoConferenceApp" t="Include">
+              <e p="ConferenceApp.cs" t="Include" />
+              <e p="GridManager.cs" t="Include" />
+            </e>
+            <e p="VideoInput" t="Include">
+              <e p="VideoInputApp.cs" t="Include" />
+              <e p="VirtualCamera.cs" t="Include" />
+            </e>
+          </e>
+          <e p="license.txt" t="Include" />
+          <e p="license_third_party.txt" t="Include" />
+          <e p="license_webrtc.txt" t="Include" />
+          <e p="MenuScript.cs" t="Include" />
+          <e p="Plugins" t="Include">
+            <e p="android" t="Include">
+              <e p="mainTemplate.gradle.example.txt" t="Include" />
+            </e>
+            <e p="Byn.Awrtc.xml" t="Include" />
+          </e>
+          <e p="readme.txt" t="Include" />
+          <e p="Resources" t="Include">
+            <e p="wrtcI420.shader" t="Include" />
+          </e>
+          <e p="scripts" t="Include">
+            <e p="browser" t="Include">
+              <e p="awrtc_browser.asmdef" t="Include" />
+              <e p="BrowserCallFactory.cs" t="Include" />
+              <e p="BrowserMediaNetwork.cs" t="Include" />
+              <e p="BrowserWebRtcCall.cs" t="Include" />
+              <e p="BrowserWebRtcNetwork.cs" t="Include" />
+              <e p="CAPI.cs" t="Include" />
+            </e>
+            <e p="native" t="Include">
+              <e p="AndroidHelper.cs" t="Include" />
+              <e p="UnityHelper.cs" t="Include" />
+            </e>
+            <e p="UnityCallFactory.cs" t="Include" />
+            <e p="UnityMediaHelper.cs" t="Include" />
+            <e p="UnitySingleton.cs" t="Include" />
+          </e>
+        </e>
+      </e>
+      <e p="awrtc_browser.csproj" t="IncludeRecursive" />
+      <e p="awrtc_editor.csproj" t="IncludeRecursive" />
+      <e p="obj" t="ExcludeRecursive" />
+      <e p="Packages" t="ExcludeRecursive" />
+      <e p="Temp\bin" t="ExcludeRecursive" />
+      <e p="WebRTCTest.sln" t="IncludeFlat" />
+      <e p="wrtc.csproj" t="IncludeRecursive" />
+    </e>
+    <e p="C:\Users\islam\.Rider2019.2\system\extResources" t="IncludeRecursive" />
+    <e p="C:\Users\islam\.Rider2019.2\system\resharper-host\local\Transient\ReSharperHost\v192\SolutionCaches\_WebRTCTest.1676278596.00" t="ExcludeRecursive" />
+  </component>
+</project>

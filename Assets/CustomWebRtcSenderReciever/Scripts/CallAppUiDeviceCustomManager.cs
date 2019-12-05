@@ -1,18 +1,29 @@
-﻿using UnityEngine;
+﻿using System.Collections;
+using UnityEngine;
 
 public class CallAppUiDeviceCustomManager : MonoBehaviour
 {
-    [SerializeField] private CallAppUi _callAppUi;
-    [SerializeField] private CallApp _callApp;
+    private CallAppUi _callAppUi;
+    private CallApp _callApp;
+    private CustomWebRtcRestManager _customWebRtcRestManager;
     
+    [SerializeField] private string _uri = "web4ar.herokuapp.com/api/call?user_id=";
+
     private void Awake()
     {
         _callAppUi = FindObjectOfType<CallAppUi>();
         
         _callApp = FindObjectOfType<CallApp>();
         _callApp.OnMessage += CallAppOnMessage;
+        
+        _customWebRtcRestManager = FindObjectOfType<CustomWebRtcRestManager>();
     }
     
+    private IEnumerator Start()
+    {
+        yield return new WaitForSeconds(0.1f);
+        Join("5810");
+    }
     public void Join(string roomName)
     {
         _callAppUi.uAudioToggle.isOn = true;
@@ -20,7 +31,9 @@ public class CallAppUiDeviceCustomManager : MonoBehaviour
         _callAppUi.uRoomNameInputField.text = roomName;
         
         _callAppUi.JoinButtonPressed();
-        // _callAppUi.Fullscreen();
+        _callAppUi.Fullscreen();
+        
+        //_customWebRtcRestManager.SimplePostRequest(_uri + roomName);
     }
     
     public void Shutdown()

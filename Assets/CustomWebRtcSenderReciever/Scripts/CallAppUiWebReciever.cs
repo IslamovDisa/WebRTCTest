@@ -1,15 +1,16 @@
 ﻿using System;
 using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
-using UnityEngine.UI;
 
 public class CallAppUiWebReciever : MonoBehaviour
 {
-    [SerializeField] private CallAppUi _callAppUi;
-    [SerializeField] private CallApp _callApp;
+    private CallAppUi _callAppUi;
+    private CallApp _callApp;
+    private CustomWebRtcRestManager _customWebRtcRestManager;
     
     private string _roomName;
+
+    [SerializeField] private string _uri = "web4ar.herokuapp.com/api/call?user_id=";
     
     private void Awake()
     {
@@ -25,7 +26,7 @@ public class CallAppUiWebReciever : MonoBehaviour
             _roomName = Application.absoluteURL.Split("?"[0])[1];
         }
 
-        //Join();
+        _customWebRtcRestManager = FindObjectOfType<CustomWebRtcRestManager>();
     }
 
     private IEnumerator Start()
@@ -33,6 +34,8 @@ public class CallAppUiWebReciever : MonoBehaviour
         yield return new WaitForSeconds(0.1f);
         _callAppUi.uRoomNameInputField.text = _roomName;
         _callAppUi.uRoomNameInputField.ForceLabelUpdate();
+        
+        Join();
     }
 
     public void Join()
@@ -43,6 +46,8 @@ public class CallAppUiWebReciever : MonoBehaviour
         
         _callAppUi.JoinButtonPressed();
         _callAppUi.Fullscreen();
+        
+        //_customWebRtcRestManager.SimpleDeleteRequest(_uri + _roomName);
     }
     
     private void CallAppOnWaitForIncomingCall()

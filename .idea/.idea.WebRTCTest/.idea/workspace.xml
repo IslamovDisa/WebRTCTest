@@ -1,12 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="1caf50ca-ee93-41e9-804b-d63af343398a" name="Default Changelist" comment="" />
+    <list default="true" id="1caf50ca-ee93-41e9-804b-d63af343398a" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.WebRTCTest/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.WebRTCTest/.idea/contentModel.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.WebRTCTest/.idea/indexLayout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.WebRTCTest/.idea/indexLayout.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.WebRTCTest/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.WebRTCTest/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/CustomWebRtcSenderReciever/Scenes/DeviceSender.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/CustomWebRtcSenderReciever/Scenes/DeviceSender.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/CustomWebRtcSenderReciever/Scenes/WebReciever.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/CustomWebRtcSenderReciever/Scenes/WebReciever.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/CustomWebRtcSenderReciever/Scripts/CallAppUiDeviceCustomManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/CustomWebRtcSenderReciever/Scripts/CallAppUiDeviceCustomManager.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/CustomWebRtcSenderReciever/Scripts/CallAppUiWebReciever.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/CustomWebRtcSenderReciever/Scripts/CallAppUiWebReciever.cs" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/Assets/WebRtcVideoChat.meta" root0="FORCE_HIGHLIGHTING" />
@@ -20,6 +31,7 @@
     <setting file="file://$PROJECT_DIR$/Assets/CustomWebRtcSenderReciever/Scripts/CallAppUiDeviceCustomManager.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/CustomWebRtcSenderReciever/Scripts/CallAppUiWebReciever.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/WebRtcVideoChat/callapp/VideoPanelEventHandler.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/CustomWebRtcSenderReciever/Scripts/CustomWebRtcRestManager.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/CustomWebRtcSenderReciever/Editor/CallAppUiWebRecieverEditor.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/WebRtcVideoChat/callapp/CallApp.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
@@ -31,10 +43,11 @@
         <option value="$PROJECT_DIR$/Assets/CustomWebRtcSenderReciever/Scripts/CallAppUiCustomManager.cs" />
         <option value="$PROJECT_DIR$/Assets/WebRtcVideoChat/callapp/CallApp.cs" />
         <option value="$PROJECT_DIR$/Assets/CustomWebRtcSenderReciever/Editor/DeviceSenderEditor.cs" />
-        <option value="$PROJECT_DIR$/Assets/CustomWebRtcSenderReciever/Scripts/CallAppUiDeviceCustomManager.cs" />
         <option value="$PROJECT_DIR$/Assets/CustomWebRtcSenderReciever/Editor/CallAppUiDeviceCustomManagerEditor.cs" />
         <option value="$PROJECT_DIR$/Assets/CustomWebRtcSenderReciever/Editor/CallAppUiWebRecieverEditor.cs" />
         <option value="$PROJECT_DIR$/Assets/CustomWebRtcSenderReciever/Scripts/CallAppUiWebReciever.cs" />
+        <option value="$PROJECT_DIR$/Assets/CustomWebRtcSenderReciever/Scripts/CustomWebRtcRestManager.cs" />
+        <option value="$PROJECT_DIR$/Assets/CustomWebRtcSenderReciever/Scripts/CallAppUiDeviceCustomManager.cs" />
       </list>
     </option>
   </component>
@@ -89,7 +102,8 @@
       <workItem from="1575152286597" duration="5055000" />
       <workItem from="1575185556367" duration="553000" />
       <workItem from="1575468491669" duration="5356000" />
-      <workItem from="1575483822569" duration="14640000" />
+      <workItem from="1575483822569" duration="15345000" />
+      <workItem from="1575570714849" duration="6362000" />
     </task>
     <servers />
   </component>
@@ -98,6 +112,17 @@
   </component>
   <component name="UnityProjectConfiguration" hasMinimizedUI="true" />
   <component name="UnityUnitTestConfiguration" currentTestLauncher="EditMode" />
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="VcsManagerConfiguration">
     <option name="LOCAL_CHANGES_DETAILS_PREVIEW_SHOWN" value="true" />
   </component>

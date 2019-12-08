@@ -47,7 +47,7 @@ public class CallAppUiWebReciever : MonoBehaviour
         _callAppUi.JoinButtonPressed();
         _callAppUi.Fullscreen();
         
-        //_customWebRtcRestManager.SimpleDeleteRequest(_uri + _roomName);
+        _customWebRtcRestManager.SimpleDeleteRequest(_uri + _roomName);
     }
     
     private void CallAppOnWaitForIncomingCall()

@@ -19,11 +19,6 @@ public class CallAppUiDeviceCustomManager : MonoBehaviour
         _customWebRtcRestManager = FindObjectOfType<CustomWebRtcRestManager>();
     }
     
-    private IEnumerator Start()
-    {
-        yield return new WaitForSeconds(0.1f);
-        Join("5810");
-    }
     public void Join(string roomName)
     {
         _callAppUi.uAudioToggle.isOn = true;
@@ -33,7 +28,7 @@ public class CallAppUiDeviceCustomManager : MonoBehaviour
         _callAppUi.JoinButtonPressed();
         _callAppUi.Fullscreen();
         
-        //_customWebRtcRestManager.SimplePostRequest(_uri + roomName);
+        _customWebRtcRestManager.SimplePostRequest(_uri + roomName);
     }
     
     public void Shutdown()

@@ -473,7 +473,7 @@ public class CallAppUi : MonoBehaviour
         //moved to SetupCallApp
     }
 
-
+    public event Action<string> OnMessage;
     /// <summary>
     /// Adds a new message to the message view
     /// </summary>
@@ -484,6 +484,7 @@ public class CallAppUi : MonoBehaviour
         {
             uMessageOutput.AddTextEntry(text);
         }
+        OnMessage?.Invoke(text);
         Debug.Log("Chat output: " + text);
     }
 
@@ -513,7 +514,7 @@ public class CallAppUi : MonoBehaviour
         //just in case: make sure fullscreen button is ignored if in setup mode
         if (newValues == true && uSetupPanel.gameObject.activeSelf)
             return;
-        SetFullscreen(newValues);
+        SetFullscreen(true);
 
         transform.SetAsLastSibling();
     }

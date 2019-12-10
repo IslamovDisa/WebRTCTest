@@ -3,12 +3,18 @@
   <component name="ChangeListManager">
     <list default="true" id="1caf50ca-ee93-41e9-804b-d63af343398a" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.WebRTCTest/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.WebRTCTest/.idea/contentModel.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.WebRTCTest/.idea/indexLayout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.WebRTCTest/.idea/indexLayout.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.WebRTCTest/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.WebRTCTest/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/CustomWebRtcSenderReciever/Editor/CallAppUiDeviceCustomManagerEditor.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/CustomWebRtcSenderReciever/Editor/CallAppUiDeviceCustomManagerEditor.cs.meta" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/CustomWebRtcSenderReciever/Scenes/DeviceSender.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/CustomWebRtcSenderReciever/Scenes/DeviceSender.unity" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/CustomWebRtcSenderReciever/Scenes/WebReciever.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/CustomWebRtcSenderReciever/Scenes/WebReciever.unity" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/CustomWebRtcSenderReciever/Scripts/CallAppUiDeviceCustomManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/CustomWebRtcSenderReciever/Scripts/CallAppUiDeviceCustomManager.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/CustomWebRtcSenderReciever/Scripts/CallAppUiWebReciever.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/CustomWebRtcSenderReciever/Scripts/CallAppUiWebReciever.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/WebRtcVideoChat/callapp/CallApp.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/WebRtcVideoChat/callapp/CallApp.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/WebRtcVideoChat/callapp/CallAppUi.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/WebRtcVideoChat/callapp/CallAppUi.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/WebRtcVideoChat/callapp/callscene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/WebRtcVideoChat/callapp/callscene.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/GraphicsSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/GraphicsSettings.asset" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -20,16 +26,18 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/Assets/CustomWebRtcSenderReciever/Scripts/LocalPointClickInRectangle.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/CustomWebRtcSenderReciever/Scripts/TargetHighlight.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/WebRtcVideoChat.meta" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/WebRtcVideoChat/extra/VideoConferenceApp/ConferenceApp.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/CustomWebRtcSenderReciever.meta" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$USER_HOME$/Downloads/WebRTCTest/WebRTCTest/Assets/Scenes/SampleScene.unity" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/CustomWebRtcSenderReciever/Editor/CallAppUiDeviceCustomManagerEditor.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/WebRtcVideoChat/callapp/CallAppUi.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$USER_HOME$/Downloads/WebRTCTest/WebRTCTest/Assets/WebRtcVideoChat.meta" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$USER_HOME$/Downloads/WebRTCTest/WebRTCTest/Assets/Scenes.meta" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/CustomWebRtcSenderReciever/Scripts/CallAppUiDeviceCustomManager.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/CustomWebRtcSenderReciever/Scripts/CallAppUiWebReciever.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/CustomWebRtcSenderReciever/Scenes/DeviceSender.unity" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/WebRtcVideoChat/callapp/VideoPanelEventHandler.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/CustomWebRtcSenderReciever/Scripts/CustomWebRtcRestManager.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/CustomWebRtcSenderReciever/Editor/CallAppUiWebRecieverEditor.cs" root0="FORCE_HIGHLIGHTING" />
@@ -39,20 +47,23 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/Assets/WebRtcVideoChat/callapp/VideoPanelEventHandler.cs" />
-        <option value="$PROJECT_DIR$/Assets/WebRtcVideoChat/callapp/CallAppUi.cs" />
         <option value="$PROJECT_DIR$/Assets/CustomWebRtcSenderReciever/Scripts/CallAppUiCustomManager.cs" />
-        <option value="$PROJECT_DIR$/Assets/WebRtcVideoChat/callapp/CallApp.cs" />
         <option value="$PROJECT_DIR$/Assets/CustomWebRtcSenderReciever/Editor/DeviceSenderEditor.cs" />
         <option value="$PROJECT_DIR$/Assets/CustomWebRtcSenderReciever/Editor/CallAppUiDeviceCustomManagerEditor.cs" />
         <option value="$PROJECT_DIR$/Assets/CustomWebRtcSenderReciever/Editor/CallAppUiWebRecieverEditor.cs" />
-        <option value="$PROJECT_DIR$/Assets/CustomWebRtcSenderReciever/Scripts/CallAppUiWebReciever.cs" />
         <option value="$PROJECT_DIR$/Assets/CustomWebRtcSenderReciever/Scripts/CustomWebRtcRestManager.cs" />
+        <option value="$PROJECT_DIR$/Assets/CustomWebRtcSenderReciever/Scripts/LocalPointClickInRectangle.cs" />
+        <option value="$PROJECT_DIR$/Assets/CustomWebRtcSenderReciever/Scripts/TargetHighlight.cs" />
+        <option value="$PROJECT_DIR$/Assets/CustomWebRtcSenderReciever/Scripts/CallAppUiWebReciever.cs" />
+        <option value="$PROJECT_DIR$/Assets/WebRtcVideoChat/callapp/CallApp.cs" />
+        <option value="$PROJECT_DIR$/Assets/WebRtcVideoChat/callapp/CallAppUi.cs" />
         <option value="$PROJECT_DIR$/Assets/CustomWebRtcSenderReciever/Scripts/CallAppUiDeviceCustomManager.cs" />
       </list>
     </option>
   </component>
   <component name="ProjectId" id="1UM2jbKhrFFEcqyvgvEgg3nq1GH" />
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="Discover.Launch.Via.Unity" value="true" />
     <property name="Rider.DefaultBreakpoints.AreToggled" value="true" />
     <property name="Rider.ProjectViewActivator.IsNotFirstRun" value="true" />
@@ -73,11 +84,11 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Attach to Unity Editor.Attach to Unity Editor">
-    <configuration name="Attach to Unity Editor &amp; Play" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="UNITY_ATTACH_AND_PLAY" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost">
+  <component name="RunManager" selected="Attach to Unity Editor.Attach to Unity Editor &amp; Play">
+    <configuration name="Attach to Unity Editor &amp; Play" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="UNITY_ATTACH_AND_PLAY" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost" pid="13148">
       <option name="allowRunningInParallel" value="false" />
       <option name="listenPortForConnections" value="false" />
-      <option name="pid" />
+      <option name="pid" value="13148" />
       <option name="userSelectedPid" value="false" />
       <method v="2" />
     </configuration>
@@ -103,8 +114,25 @@
       <workItem from="1575185556367" duration="553000" />
       <workItem from="1575468491669" duration="5356000" />
       <workItem from="1575483822569" duration="15345000" />
-      <workItem from="1575570714849" duration="6362000" />
+      <workItem from="1575570714849" duration="7069000" />
+      <workItem from="1575842499283" duration="1959000" />
+      <workItem from="1575887823993" duration="17849000" />
     </task>
+    <task id="LOCAL-00001" summary="Add post/delete requests and default user for presentation at 06/12/2019">
+      <created>1575586183920</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1575586183920</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Small fixes. Return rest api">
+      <created>1575846580667</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1575846580667</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -117,7 +145,9 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>
@@ -125,6 +155,9 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="LOCAL_CHANGES_DETAILS_PREVIEW_SHOWN" value="true" />
+    <MESSAGE value="Add post/delete requests and default user for presentation at 06/12/2019" />
+    <MESSAGE value="Small fixes. Return rest api" />
+    <option name="LAST_COMMIT_MESSAGE" value="Small fixes. Return rest api" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

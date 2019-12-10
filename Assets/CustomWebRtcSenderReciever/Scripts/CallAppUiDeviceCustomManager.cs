@@ -1,4 +1,5 @@
-﻿using System.Collections;
+﻿using System;
+using System.Collections;
 using UnityEngine;
 
 public class CallAppUiDeviceCustomManager : MonoBehaviour
@@ -9,14 +10,18 @@ public class CallAppUiDeviceCustomManager : MonoBehaviour
     
     [SerializeField] private string _uri = "web4ar.herokuapp.com/api/call?user_id=";
 
+    private TargetHighlight _targetHighlight;
+    [SerializeField] private RectTransform _localVideoImage;
+    
     private void Awake()
     {
         _callAppUi = FindObjectOfType<CallAppUi>();
         
         _callApp = FindObjectOfType<CallApp>();
-        _callApp.OnMessage += CallAppOnMessage;
+        _callAppUi.OnMessage += CallAppOnMessage;
         
         _customWebRtcRestManager = FindObjectOfType<CustomWebRtcRestManager>();
+        _targetHighlight = FindObjectOfType<TargetHighlight>();
     }
     
     public void Join(string roomName)
@@ -41,5 +46,18 @@ public class CallAppUiDeviceCustomManager : MonoBehaviour
     private void CallAppOnMessage(string message)
     {
         Debug.LogFormat("msg receive {0}",  message);
+        if (!message.Contains("(") || !message.Contains(",") || !message.Contains(")"))
+        {
+            return;
+        }
+        
+        message = message.Trim('(', ')');
+        var res = message.Split(',');
+
+        res[0] = res[0].Replace('.', ',');
+        res[1] = res[1].Replace('.', ',');
+        var result = new Vector2(float.Parse(res[0].Trim()), float.Parse(res[1].Trim()));
+        Debug.Log(result);
+        _targetHighlight.SetTarget(result, _localVideoImage.rect);
     }
 }

@@ -9,7 +9,8 @@ public class CallAppUiWebReciever : MonoBehaviour
     private CustomWebRtcRestManager _customWebRtcRestManager;
     
     private string _roomName;
-
+    private LocalPointClickInRectangle _localPointClickInRectangle;
+    
     [SerializeField] private string _uri = "web4ar.herokuapp.com/api/call?user_id=";
     
     private void Awake()
@@ -27,6 +28,13 @@ public class CallAppUiWebReciever : MonoBehaviour
         }
 
         _customWebRtcRestManager = FindObjectOfType<CustomWebRtcRestManager>();
+        _localPointClickInRectangle = FindObjectOfType<LocalPointClickInRectangle>();
+        _localPointClickInRectangle.OnMouseClick += OnMouseClick;
+    }
+
+    private void OnMouseClick(Vector2 value)
+    {
+        SendMessage(value.ToString());
     }
 
     private IEnumerator Start()
@@ -41,8 +49,9 @@ public class CallAppUiWebReciever : MonoBehaviour
     public void Join()
     {
         _callAppUi.uAudioToggle.isOn = true;
-        _callAppUi.uVideoToggle.isOn = true;
+        _callAppUi.uVideoToggle.isOn = false;
         _callAppUi.uRoomNameInputField.text = _roomName;
+        
         
         _callAppUi.JoinButtonPressed();
         _callAppUi.Fullscreen();

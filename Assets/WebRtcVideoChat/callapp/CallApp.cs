@@ -325,7 +325,6 @@ public class CallApp : MonoBehaviour
                     //text message received
                     MessageEventArgs args = e as MessageEventArgs;
                     Append(args.Content);
-                    OnMessage?.Invoke(args.Content);
                     break;
                 }
             case CallEventType.WaitForIncomingCall:
